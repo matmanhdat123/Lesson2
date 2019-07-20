@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54f421eb-5bac-4177-acd4-e13307034bac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_3/app/src/main/java/com/example/demo_3/event/Event.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_3/app/src/main/res/layout/activity_edit_user_name.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/proguardTest-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/ActivityTestExt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/custom/action/NavigationViewActions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/data/source/local/TasksDaoTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/data/source/local/TasksLocalDataSourceTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/tasks/AppNavigationTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksScreenTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/utils/SingleExecutors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/androidTestMock/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskScreenTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/androidTestMock/java/com/example/android/architecture/blueprints/todoapp/statistics/StatisticsScreenTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/androidTestMock/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailScreenTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/Event.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/ScrollChildSwipeRefreshLayout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/SingleLiveEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/ViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskNavigator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/TasksDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/TasksRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/local/TasksDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/local/TasksLocalDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/local/ToDoDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/remote/TasksRemoteDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/statistics/StatisticsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/statistics/StatisticsFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/statistics/StatisticsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailNavigator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailUserActionsListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TaskItemNavigator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TaskItemUserActionsListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksFilterType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksListBindings.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksNavigator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/util/AppCompatActivityExt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/util/AppExecutors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/util/DiskIOThreadExecutor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/util/EspressoIdlingResource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/util/SimpleCountingIdlingResource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/java/com/example/android/architecture/blueprints/todoapp/util/ViewExt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable-hdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable-mdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable-xhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable-xxhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable-xxxhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/ic_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/ic_check_circle_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/ic_done.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/ic_edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/ic_filter_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/ic_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/ic_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/ic_statistics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/ic_statistics_100dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/ic_statistics_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/ic_verified_user_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/list_completed_touch_feedback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/drawable/touch_feedback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/layout/addtask_act.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/layout/addtask_frag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/layout/nav_header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/layout/statistics_act.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/layout/statistics_frag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/layout/task_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/layout/taskdetail_act.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/layout/taskdetail_frag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/layout/tasks_act.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/layout/tasks_frag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/menu/drawer_actions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/menu/filter_tasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/menu/taskdetail_fragment_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/menu/tasks_fragment_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/mock/java/com/example/android/architecture/blueprints/todoapp/Injection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/mock/java/com/example/android/architecture/blueprints/todoapp/data/FakeTasksRemoteDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/prod/java/com/example/android/architecture/blueprints/todoapp/Injection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/sharedTest/java/com/example/android/architecture/blueprints/todoapp/util/MockitoKotlinHelpers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/test/java/com/example/android/architecture/blueprints/todoapp/LiveDataTestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/test/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/test/java/com/example/android/architecture/blueprints/todoapp/data/source/TasksRepositoryTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/test/java/com/example/android/architecture/blueprints/todoapp/statistics/StatisticsViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/test/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/test/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/app/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoapp/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LESSON2" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="148" column="40" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimen.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1768">
+              <caret line="125" column="12" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
+              <folding>
+                <element signature="e#484#507#0" expanded="true" />
+                <element signature="e#517#543#0" expanded="true" />
+                <element signature="e#1171#1192#0" expanded="true" />
+                <element signature="e#1289#1334#0" expanded="true" />
+                <element signature="e#1363#1397#0" expanded="true" />
+                <element signature="e#1432#1468#0" expanded="true" />
+                <element signature="e#1897#1928#0" expanded="true" />
+                <element signature="e#1963#1994#0" expanded="true" />
+                <element signature="e#2486#2511#0" expanded="true" />
+                <element signature="e#2499#2544#0" expanded="true" />
+                <element signature="e#2483#2519#0" expanded="true" />
+                <element signature="e#2745#2779#0" expanded="true" />
+                <element signature="e#3143#3174#0" expanded="true" />
+                <element signature="e#3209#3240#0" expanded="true" />
+                <element signature="e#3746#3769#0" expanded="true" />
+                <element signature="e#3777#3804#0" expanded="true" />
+                <element signature="e#3883#3928#0" expanded="true" />
+                <element signature="e#3965#3994#0" expanded="true" />
+                <element signature="e#4528#4552#0" expanded="true" />
+                <element signature="e#5112#5136#0" expanded="true" />
+                <element signature="e#5203#5232#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lesson2/MainActivity2.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lesson2/MainActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#EBEBEB</find>
+      <find>#A8A8A8</find>
+      <find>#FCFCFC</find>
+      <find>8dp</find>
+      <find>350dp</find>
+      <find>#</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/background.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/background2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lesson2/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/button_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimen.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lesson2/MainActivity2.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LESSON2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="LESSON2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="LESSON2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="lesson2" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LESSON2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LESSON2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LESSON2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="LESSON2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LESSON2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="LESSON2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LESSON2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LESSON2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LESSON2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LESSON2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LESSON2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LESSON2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LESSON2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LESSON2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LESSON2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="Pixel_2_API_29" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.example.lesson2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54f421eb-5bac-4177-acd4-e13307034bac" name="Default Changelist" comment="" />
+      <created>1563434072971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563434072971</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14599092" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Debug" order="0" />
+      <window_info anchor="bottom" id="Run" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Logcat" order="3" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.29411766" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14599092" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Debug" order="0" />
+      <window_info anchor="bottom" id="Run" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Logcat" order="3" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.29411766" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/background2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/background.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="e#279#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/button_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="148" column="40" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lesson2/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lesson2/MainActivity2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="125" column="12" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
+          <folding>
+            <element signature="e#484#507#0" expanded="true" />
+            <element signature="e#517#543#0" expanded="true" />
+            <element signature="e#1171#1192#0" expanded="true" />
+            <element signature="e#1289#1334#0" expanded="true" />
+            <element signature="e#1363#1397#0" expanded="true" />
+            <element signature="e#1432#1468#0" expanded="true" />
+            <element signature="e#1897#1928#0" expanded="true" />
+            <element signature="e#1963#1994#0" expanded="true" />
+            <element signature="e#2486#2511#0" expanded="true" />
+            <element signature="e#2499#2544#0" expanded="true" />
+            <element signature="e#2483#2519#0" expanded="true" />
+            <element signature="e#2745#2779#0" expanded="true" />
+            <element signature="e#3143#3174#0" expanded="true" />
+            <element signature="e#3209#3240#0" expanded="true" />
+            <element signature="e#3746#3769#0" expanded="true" />
+            <element signature="e#3777#3804#0" expanded="true" />
+            <element signature="e#3883#3928#0" expanded="true" />
+            <element signature="e#3965#3994#0" expanded="true" />
+            <element signature="e#4528#4552#0" expanded="true" />
+            <element signature="e#5112#5136#0" expanded="true" />
+            <element signature="e#5203#5232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LESSON2</string>
+    <string name="screen_create">Create your account!</string>
+    <string name="screen_photo">Add your photo</string>
+    <string name="screen_first_name">First Name</string>
+    <string name="screen_last_name">Last Name</string>
+    <string name="screen_email">E-mail</string>
+    <string name="screen_password">Password</string>
+    <string name="screen_confirm_password">Confirm Password</string>
+    <string name="button_create">create account</string>
+    <string name="screen_login">Already have an account?</string>
+    <string name="button_login">Login.</string>
+    <string name="screen_login1">Log In</string>
+    <string name="button_login1">Log in</string>
+    <string name="screen_user">keevarleo</string>
+    <string name="screen_sign_up">First ime here?</string>
+    <string name="button_sign_up">Sign up</string>
+</resources>

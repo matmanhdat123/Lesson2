@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="screen_create_width">180dp</dimen>
+    <dimen name="screen_create_size">35sp</dimen>
+    <dimen name="background1_width">180dp</dimen>
+    <dimen name="background1_height">128dp</dimen>
+    <dimen name="first_last_width">180dp</dimen>
+    <dimen name="first_last_height">64dp</dimen>
+    <dimen name="screen_photo_width">60dp</dimen>
+    <dimen name="screen_photo_size">15sp</dimen>
+    <dimen name="background2_width">325dp</dimen>
+    <dimen name="background2_height">55dp</dimen>
+    <dimen name="sign_up_width">270dp</dimen>
+    <dimen name="sign_up_height">55dp</dimen>
+    <dimen name="image_width_height">55dp</dimen>
+    <dimen name="button_create_width">325dp</dimen>
+    <dimen name="button_login_width">65dp</dimen>
+    <dimen name="button_login_height">20dp</dimen>
+    <dimen name="button_login_size">12sp</dimen>
+    <dimen name="screen_user_lock_button_login1_width">350dp</dimen>
+    <dimen name="screen_login_size">60sp</dimen>
+    <dimen name="screen_user_password_size">25sp</dimen>
+    <dimen name="screen_user_password_height">70dp</dimen>
+    <dimen name="user_lock_width_height">70dp</dimen>
+    <dimen name="button_login1_size">45sp</dimen>
+    <dimen name="button_login1_height">80dp</dimen>
+    <dimen name="button_sign_up_width">70dp</dimen>
+    <dimen name="button_sign_up_height">20dp</dimen>
+</resources>
